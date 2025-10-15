@@ -1,0 +1,278 @@
+---
+import * as Plot from "@observablehq/plot";
+import PlotFigure from "../components/PlotFigure.astro";
+import Layout from "../layouts/Layout.astro";
+import departements from "../assets/departements.geojson.json";
+import populationMain from "../assets/populationMain.json";
+
+// Extraire les listes uniques pour les contrôles
+const listePeriode = [
+  ...new Set(populationMain?.map((d) => d.Période)),
+].reverse();
+const listeSexe = [...new Set(populationMain?.map((d) => d.Sexe))];
+const listeAge = [...new Set(populationMain?.map((d) => d["Âge"]))];
+
+let selectedYear = 2015;
+let selectedSex = "Total";
+let selectedAge = "Total";
+
+const optionPlot = {
+  projection: {
+    type: "mercator", //utiliser une projection adaptée
+    domain: departements, // Domain pour centrer la carte sur la france
+  },
+  color: {
+    type: "quantile",
+    n: 8,
+    scheme: "Greens",
+    label: "Population en centaine de milliers",
+    legend: true,
+    transform: (d) => Math.round(d / 100000),
+  },
+  marks: [
+    Plot.geo(departements, {
+      fill: (d) => {
+        const deptName = d.properties.nom; //Nom du département dans le geoJson
+        const popData = populationMain.find(
+          (p) =>
+            p.Géographie === deptName &&
+            p.Période === selectedYear &&
+            p.Sexe === selectedSex &&
+            p["Âge"] === selectedAge
+        ); //trouver les données correspondantes
+        return popData ? popData.Valeur : 0; //Coloriser en fonction de la valeur
+      },
+      stroke: "#999",
+      title: (d) => {
+        const deptName = d.properties.nom; //Nom du département dans le geoJson
+        const popData = populationMain.find(
+          (p) =>
+            p.Géographie === deptName &&
+            p.Période === selectedYear &&
+            p.Sexe === selectedSex &&
+            p["Âge"] === selectedAge
+        ); //trouver les données correspondantes
+        return `${deptName} : ${popData ? popData.Valeur : "N/A"}`; //Coloriser en fonction de la valeur
+      },
+      tip: true,
+    }),
+  ],
+};
+---
+
+<Layout>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">
+      Carte GeoJSON avec Observable Plot - Interactive
+    </h1>
+
+    <!-- Contrôles interactifs -->
+    <div class="bg-gray-100 rounded-lg p-6 mb-6">
+      <h2 class="text-xl font-semibold mb-4">Filtres</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Période -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-3"
+            >Année :</label
+          >
+          <div class="space-y-2">
+            {
+              listePeriode.map((periode, i) => (
+                <label class="flex items-center">
+                  <input
+                    type="radio"
+                    name="periode"
+                    value={periode}
+                    checked={i === 0}
+                    class="mr-2 text-blue-600"
+                  />
+                  <span class="text-sm">{periode}</span>
+                </label>
+              ))
+            }
+          </div>
+        </div>
+
+        <!-- Sexe -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-3"
+            >Sexe :</label
+          >
+          <div class="space-y-2">
+            {
+              listeSexe.map((sexe, i) => (
+                <label class="flex items-center">
+                  <input
+                    type="radio"
+                    name="sexe"
+                    value={sexe}
+                    checked={i === 0}
+                    class="mr-2 text-blue-600"
+                  />
+                  <span class="text-sm">{sexe}</span>
+                </label>
+              ))
+            }
+          </div>
+        </div>
+
+        <!-- Âge -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-3"
+            >Âge :</label
+          >
+          <div class="space-y-2">
+            {
+              listeAge.map((age, i) => (
+                <label class="flex items-center">
+                  <input
+                    type="radio"
+                    name="age"
+                    value={age}
+                    checked={i === 0}
+                    class="mr-2 text-blue-600"
+                  />
+                  <span class="text-sm">{age}</span>
+                </label>
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carte -->
+    <div class="bg-white rounded-lg shadow-lg p-6">
+      <div id="plot-container">
+        <PlotFigure
+          options={optionPlot}
+          title="Population des départements français"
+          subtitle="Carte choroplèthe interactive"
+          caption="Figure 1. Répartition de la population par département selon les filtres sélectionnés."
+          ariaLabel="Carte choroplèthe des départements français colorée selon la population"
+        />
+      </div>
+    </div>
+
+    <div class="mt-8">
+      <a
+        href="/"
+        class="inline-block bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-4 transition-colors"
+      >
+        Retour à l'accueil
+      </a>
+      <a
+        href="/leaflet"
+        class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
+      >
+        Voir la carte Leaflet
+      </a>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  import * as Plot from "@observablehq/plot";
+  import departements from "../assets/departements.geojson.json";
+  import populationMain from "../assets/populationMain.json";
+
+  // Variables de sélection
+  let selectedYear = 2015;
+  let selectedSex = "Total";
+  let selectedAge = "Total";
+
+  // Fonction pour créer le graphique
+  function updatePlot() {
+    const plotContainer = document.getElementById("plot-container");
+    if (!plotContainer) return;
+
+    // Nettoyer le conteneur
+    plotContainer.innerHTML = "";
+
+    const optionPlot = {
+      projection: {
+        type: "mercator",
+        domain: departements,
+      },
+      color: {
+        type: "quantile",
+        n: 8,
+        scheme: "Blues", // Changé pour plus de contraste
+        label: "Population en centaine de milliers",
+        legend: true,
+        transform: (d) => Math.round(d / 100000),
+      },
+      title: `Population - ${selectedSex} - ${selectedAge} - ${selectedYear}`,
+      ariaLabel: `Carte des départements français colorée selon la population (${selectedSex}, ${selectedAge}) en ${selectedYear}`,
+      marks: [
+        Plot.geo(departements, {
+          fill: (d) => {
+            const deptName = d.properties.nom;
+            const popData = populationMain.find(
+              (p) =>
+                p.Géographie === deptName &&
+                p.Période === selectedYear &&
+                p.Sexe === selectedSex &&
+                p["Âge"] === selectedAge
+            );
+            return popData ? popData.Valeur : 0;
+          },
+          stroke: "#999",
+          strokeWidth: 0.5,
+          title: (d) => {
+            const deptName = d.properties.nom;
+            const popData = populationMain.find(
+              (p) =>
+                p.Géographie === deptName &&
+                p.Période === selectedYear &&
+                p.Sexe === selectedSex &&
+                p["Âge"] === selectedAge
+            );
+            return `${deptName}\nPopulation : ${popData ? popData.Valeur.toLocaleString() : "N/A"}`;
+          },
+          tip: true,
+        }),
+      ],
+    };
+
+    const plot = Plot.plot(optionPlot);
+    plotContainer.append(plot);
+  }
+
+  // Event listeners pour les boutons radio
+  document.addEventListener("DOMContentLoaded", () => {
+    // Période
+    document.querySelectorAll('input[name="periode"]').forEach((input) => {
+      input.addEventListener("change", (e) => {
+        if (e.target.checked) {
+          selectedYear = Number(e.target.value);
+          updatePlot();
+        }
+      });
+    });
+
+    // Sexe
+    document.querySelectorAll('input[name="sexe"]').forEach((input) => {
+      input.addEventListener("change", (e) => {
+        if (e.target.checked) {
+          selectedSex = e.target.value;
+          updatePlot();
+        }
+      });
+    });
+
+    // Âge
+    document.querySelectorAll('input[name="age"]').forEach((input) => {
+      input.addEventListener("change", (e) => {
+        if (e.target.checked) {
+          selectedAge = e.target.value;
+          updatePlot();
+        }
+      });
+    });
+
+    // Graphique initial
+    updatePlot();
+  });
+</script>

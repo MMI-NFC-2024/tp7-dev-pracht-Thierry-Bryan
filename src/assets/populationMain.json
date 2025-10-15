@@ -1,0 +1,1619 @@
+[
+  {
+    "Géographie": "Ain",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 634000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 645000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 655000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 317000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 317000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "0-19 ans",
+    "Valeur": 158000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "20-64 ans",
+    "Valeur": 380000
+  },
+  {
+    "Géographie": "Ain",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "65 ans et plus",
+    "Valeur": 96000
+  },
+  {
+    "Géographie": "Aisne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 538000
+  },
+  {
+    "Géographie": "Aisne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 535000
+  },
+  {
+    "Géographie": "Aisne",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 530000
+  },
+  {
+    "Géographie": "Aisne",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 269000
+  },
+  {
+    "Géographie": "Aisne",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 269000
+  },
+  {
+    "Géographie": "Allier",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 340000
+  },
+  {
+    "Géographie": "Allier",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 338000
+  },
+  {
+    "Géographie": "Allier",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 336000
+  },
+  {
+    "Géographie": "Alpes-de-Haute-Provence",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 163000
+  },
+  {
+    "Géographie": "Alpes-de-Haute-Provence",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 164000
+  },
+  {
+    "Géographie": "Hautes-Alpes",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 140000
+  },
+  {
+    "Géographie": "Hautes-Alpes",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 141000
+  },
+  {
+    "Géographie": "Alpes-Maritimes",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1083000
+  },
+  {
+    "Géographie": "Alpes-Maritimes",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1085000
+  },
+  {
+    "Géographie": "Alpes-Maritimes",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1087000
+  },
+  {
+    "Géographie": "Ardèche",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 325000
+  },
+  {
+    "Géographie": "Ardèche",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 327000
+  },
+  {
+    "Géographie": "Ardennes",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 278000
+  },
+  {
+    "Géographie": "Ardennes",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 275000
+  },
+  {
+    "Géographie": "Ariège",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 153000
+  },
+  {
+    "Géographie": "Ariège",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 154000
+  },
+  {
+    "Géographie": "Aube",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 307000
+  },
+  {
+    "Géographie": "Aube",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 309000
+  },
+  {
+    "Géographie": "Aude",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 370000
+  },
+  {
+    "Géographie": "Aude",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 372000
+  },
+  {
+    "Géographie": "Aveyron",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 280000
+  },
+  {
+    "Géographie": "Aveyron",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 281000
+  },
+  {
+    "Géographie": "Bouches-du-Rhône",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2020000
+  },
+  {
+    "Géographie": "Bouches-du-Rhône",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2025000
+  },
+  {
+    "Géographie": "Bouches-du-Rhône",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2030000
+  },
+  {
+    "Géographie": "Bouches-du-Rhône",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 985000
+  },
+  {
+    "Géographie": "Bouches-du-Rhône",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 1035000
+  },
+  {
+    "Géographie": "Calvados",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 694000
+  },
+  {
+    "Géographie": "Calvados",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 695000
+  },
+  {
+    "Géographie": "Calvados",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 697000
+  },
+  {
+    "Géographie": "Cantal",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 147000
+  },
+  {
+    "Géographie": "Cantal",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 146000
+  },
+  {
+    "Géographie": "Charente",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 353000
+  },
+  {
+    "Géographie": "Charente",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 354000
+  },
+  {
+    "Géographie": "Charente-Maritime",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 638000
+  },
+  {
+    "Géographie": "Charente-Maritime",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 642000
+  },
+  {
+    "Géographie": "Cher",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 311000
+  },
+  {
+    "Géographie": "Cher",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 308000
+  },
+  {
+    "Géographie": "Corrèze",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 242000
+  },
+  {
+    "Géographie": "Corrèze",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 241000
+  },
+  {
+    "Géographie": "Côte-d'Or",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 533000
+  },
+  {
+    "Géographie": "Côte-d'Or",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 535000
+  },
+  {
+    "Géographie": "Côtes-d'Armor",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 598000
+  },
+  {
+    "Géographie": "Côtes-d'Armor",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 600000
+  },
+  {
+    "Géographie": "Creuse",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 120000
+  },
+  {
+    "Géographie": "Creuse",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 119000
+  },
+  {
+    "Géographie": "Dordogne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 416000
+  },
+  {
+    "Géographie": "Dordogne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 415000
+  },
+  {
+    "Géographie": "Doubs",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 539000
+  },
+  {
+    "Géographie": "Doubs",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 542000
+  },
+  {
+    "Géographie": "Drôme",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 505000
+  },
+  {
+    "Géographie": "Drôme",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 508000
+  },
+  {
+    "Géographie": "Eure",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 601000
+  },
+  {
+    "Géographie": "Eure",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 604000
+  },
+  {
+    "Géographie": "Eure-et-Loir",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 433000
+  },
+  {
+    "Géographie": "Eure-et-Loir",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 435000
+  },
+  {
+    "Géographie": "Finistère",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 909000
+  },
+  {
+    "Géographie": "Finistère",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 911000
+  },
+  {
+    "Géographie": "Corse-du-Sud",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 150000
+  },
+  {
+    "Géographie": "Haute-Corse",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 177000
+  },
+  {
+    "Géographie": "Gard",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 744000
+  },
+  {
+    "Géographie": "Gard",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 748000
+  },
+  {
+    "Géographie": "Haute-Garonne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1310000
+  },
+  {
+    "Géographie": "Haute-Garonne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1330000
+  },
+  {
+    "Géographie": "Haute-Garonne",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1350000
+  },
+  {
+    "Géographie": "Haute-Garonne",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 645000
+  },
+  {
+    "Géographie": "Haute-Garonne",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 665000
+  },
+  {
+    "Géographie": "Gers",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 191000
+  },
+  {
+    "Géographie": "Gers",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 192000
+  },
+  {
+    "Géographie": "Gironde",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1500000
+  },
+  {
+    "Géographie": "Gironde",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1520000
+  },
+  {
+    "Géographie": "Gironde",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1540000
+  },
+  {
+    "Géographie": "Gironde",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 735000
+  },
+  {
+    "Géographie": "Gironde",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 765000
+  },
+  {
+    "Géographie": "Hérault",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1120000
+  },
+  {
+    "Géographie": "Hérault",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1135000
+  },
+  {
+    "Géographie": "Hérault",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1150000
+  },
+  {
+    "Géographie": "Ille-et-Vilaine",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1041000
+  },
+  {
+    "Géographie": "Ille-et-Vilaine",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1052000
+  },
+  {
+    "Géographie": "Indre",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 223000
+  },
+  {
+    "Géographie": "Indre",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 221000
+  },
+  {
+    "Géographie": "Indre-et-Loire",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 606000
+  },
+  {
+    "Géographie": "Indre-et-Loire",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 608000
+  },
+  {
+    "Géographie": "Isère",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1235000
+  },
+  {
+    "Géographie": "Isère",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1245000
+  },
+  {
+    "Géographie": "Isère",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1255000
+  },
+  {
+    "Géographie": "Jura",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 261000
+  },
+  {
+    "Géographie": "Jura",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 260000
+  },
+  {
+    "Géographie": "Landes",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 409000
+  },
+  {
+    "Géographie": "Landes",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 413000
+  },
+  {
+    "Géographie": "Loir-et-Cher",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 333000
+  },
+  {
+    "Géographie": "Loir-et-Cher",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 332000
+  },
+  {
+    "Géographie": "Loire",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 762000
+  },
+  {
+    "Géographie": "Loire",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 765000
+  },
+  {
+    "Géographie": "Haute-Loire",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 227000
+  },
+  {
+    "Géographie": "Haute-Loire",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 228000
+  },
+  {
+    "Géographie": "Loire-Atlantique",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1350000
+  },
+  {
+    "Géographie": "Loire-Atlantique",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1365000
+  },
+  {
+    "Géographie": "Loire-Atlantique",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1380000
+  },
+  {
+    "Géographie": "Loiret",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 674000
+  },
+  {
+    "Géographie": "Loiret",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 678000
+  },
+  {
+    "Géographie": "Lot",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 174000
+  },
+  {
+    "Géographie": "Lot",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 174000
+  },
+  {
+    "Géographie": "Lot-et-Garonne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 333000
+  },
+  {
+    "Géographie": "Lot-et-Garonne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 333000
+  },
+  {
+    "Géographie": "Lozère",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 76000
+  },
+  {
+    "Géographie": "Lozère",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 76000
+  },
+  {
+    "Géographie": "Maine-et-Loire",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 809000
+  },
+  {
+    "Géographie": "Maine-et-Loire",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 815000
+  },
+  {
+    "Géographie": "Manche",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 499000
+  },
+  {
+    "Géographie": "Manche",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 498000
+  },
+  {
+    "Géographie": "Marne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 580000
+  },
+  {
+    "Géographie": "Marne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 583000
+  },
+  {
+    "Géographie": "Haute-Marne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 180000
+  },
+  {
+    "Géographie": "Haute-Marne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 178000
+  },
+  {
+    "Géographie": "Mayenne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 307000
+  },
+  {
+    "Géographie": "Mayenne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 308000
+  },
+  {
+    "Géographie": "Meurthe-et-Moselle",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 733000
+  },
+  {
+    "Géographie": "Meurthe-et-Moselle",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 732000
+  },
+  {
+    "Géographie": "Meuse",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 190000
+  },
+  {
+    "Géographie": "Meuse",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 188000
+  },
+  {
+    "Géographie": "Morbihan",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 750000
+  },
+  {
+    "Géographie": "Morbihan",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 755000
+  },
+  {
+    "Géographie": "Moselle",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1046000
+  },
+  {
+    "Géographie": "Moselle",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1043000
+  },
+  {
+    "Géographie": "Nièvre",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 215000
+  },
+  {
+    "Géographie": "Nièvre",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 213000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2600000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2595000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2590000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 1280000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 1320000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "0-19 ans",
+    "Valeur": 700000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "20-64 ans",
+    "Valeur": 1500000
+  },
+  {
+    "Géographie": "Nord",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "65 ans et plus",
+    "Valeur": 400000
+  },
+  {
+    "Géographie": "Oise",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 821000
+  },
+  {
+    "Géographie": "Oise",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 825000
+  },
+  {
+    "Géographie": "Orne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 288000
+  },
+  {
+    "Géographie": "Orne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 286000
+  },
+  {
+    "Géographie": "Pas-de-Calais",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1469000
+  },
+  {
+    "Géographie": "Pas-de-Calais",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1465000
+  },
+  {
+    "Géographie": "Puy-de-Dôme",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 649000
+  },
+  {
+    "Géographie": "Puy-de-Dôme",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 653000
+  },
+  {
+    "Géographie": "Pyrénées-Atlantiques",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 677000
+  },
+  {
+    "Géographie": "Pyrénées-Atlantiques",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 682000
+  },
+  {
+    "Géographie": "Hautes-Pyrénées",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 228000
+  },
+  {
+    "Géographie": "Hautes-Pyrénées",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 228000
+  },
+  {
+    "Géographie": "Pyrénées-Orientales",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 474000
+  },
+  {
+    "Géographie": "Pyrénées-Orientales",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 476000
+  },
+  {
+    "Géographie": "Bas-Rhin",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1125000
+  },
+  {
+    "Géographie": "Bas-Rhin",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1132000
+  },
+  {
+    "Géographie": "Haut-Rhin",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 764000
+  },
+  {
+    "Géographie": "Haut-Rhin",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 766000
+  },
+  {
+    "Géographie": "Rhône",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1800000
+  },
+  {
+    "Géographie": "Rhône",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1820000
+  },
+  {
+    "Géographie": "Rhône",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1840000
+  },
+  {
+    "Géographie": "Rhône",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 880000
+  },
+  {
+    "Géographie": "Rhône",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 920000
+  },
+  {
+    "Géographie": "Haute-Saône",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 239000
+  },
+  {
+    "Géographie": "Haute-Saône",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 238000
+  },
+  {
+    "Géographie": "Saône-et-Loire",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 556000
+  },
+  {
+    "Géographie": "Saône-et-Loire",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 555000
+  },
+  {
+    "Géographie": "Sarthe",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 570000
+  },
+  {
+    "Géographie": "Sarthe",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 571000
+  },
+  {
+    "Géographie": "Savoie",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 431000
+  },
+  {
+    "Géographie": "Savoie",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 433000
+  },
+  {
+    "Géographie": "Haute-Savoie",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 795000
+  },
+  {
+    "Géographie": "Haute-Savoie",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 807000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2200000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2190000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 2180000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2015,
+    "Sexe": "Hommes",
+    "Âge": "Total",
+    "Valeur": 1050000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2015,
+    "Sexe": "Femmes",
+    "Âge": "Total",
+    "Valeur": 1150000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "0-19 ans",
+    "Valeur": 400000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "20-64 ans",
+    "Valeur": 1500000
+  },
+  {
+    "Géographie": "Paris",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "65 ans et plus",
+    "Valeur": 300000
+  },
+  {
+    "Géographie": "Seine-Maritime",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1255000
+  },
+  {
+    "Géographie": "Seine-Maritime",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1250000
+  },
+  {
+    "Géographie": "Seine-Maritime",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1245000
+  },
+  {
+    "Géographie": "Seine-et-Marne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1403000
+  },
+  {
+    "Géographie": "Seine-et-Marne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1413000
+  },
+  {
+    "Géographie": "Yvelines",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1431000
+  },
+  {
+    "Géographie": "Yvelines",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1438000
+  },
+  {
+    "Géographie": "Deux-Sèvres",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 374000
+  },
+  {
+    "Géographie": "Deux-Sèvres",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 375000
+  },
+  {
+    "Géographie": "Somme",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 572000
+  },
+  {
+    "Géographie": "Somme",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 571000
+  },
+  {
+    "Géographie": "Tarn",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 387000
+  },
+  {
+    "Géographie": "Tarn",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 388000
+  },
+  {
+    "Géographie": "Tarn-et-Garonne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 258000
+  },
+  {
+    "Géographie": "Tarn-et-Garonne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 260000
+  },
+  {
+    "Géographie": "Var",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1030000
+  },
+  {
+    "Géographie": "Var",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1040000
+  },
+  {
+    "Géographie": "Var",
+    "Période": 2017,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1050000
+  },
+  {
+    "Géographie": "Vaucluse",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 560000
+  },
+  {
+    "Géographie": "Vaucluse",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 563000
+  },
+  {
+    "Géographie": "Vendée",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 673000
+  },
+  {
+    "Géographie": "Vendée",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 679000
+  },
+  {
+    "Géographie": "Vienne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 436000
+  },
+  {
+    "Géographie": "Vienne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 437000
+  },
+  {
+    "Géographie": "Haute-Vienne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 376000
+  },
+  {
+    "Géographie": "Haute-Vienne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 375000
+  },
+  {
+    "Géographie": "Vosges",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 372000
+  },
+  {
+    "Géographie": "Vosges",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 370000
+  },
+  {
+    "Géographie": "Yonne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 341000
+  },
+  {
+    "Géographie": "Yonne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 340000
+  },
+  {
+    "Géographie": "Territoire de Belfort",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 144000
+  },
+  {
+    "Géographie": "Territoire de Belfort",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 143000
+  },
+  {
+    "Géographie": "Essonne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1296000
+  },
+  {
+    "Géographie": "Essonne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1301000
+  },
+  {
+    "Géographie": "Hauts-de-Seine",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1609000
+  },
+  {
+    "Géographie": "Hauts-de-Seine",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1616000
+  },
+  {
+    "Géographie": "Seine-Saint-Denis",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1571000
+  },
+  {
+    "Géographie": "Seine-Saint-Denis",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1580000
+  },
+  {
+    "Géographie": "Val-de-Marne",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1365000
+  },
+  {
+    "Géographie": "Val-de-Marne",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1371000
+  },
+  {
+    "Géographie": "Val-d'Oise",
+    "Période": 2015,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1194000
+  },
+  {
+    "Géographie": "Val-d'Oise",
+    "Période": 2016,
+    "Sexe": "Total",
+    "Âge": "Total",
+    "Valeur": 1201000
+  }
+]

@@ -6,16 +6,63 @@ import penguins from "../assets/penguins.json";
 ---
 
 <Layout>
-  <h1 class="text-2xl">Test Astro et Plot (Observablehq)</h1>
-  <PlotFigure
-    options={{
-      marks: [
-        Plot.dot(penguins, {
-          x: "culmen_length_mm",
-          y: "culmen_depth_mm",
-          stroke: "species",
-        }),
-      ],
-    }}
-  />
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-4xl font-bold mb-8">
+      Visualisations de Données Interactives
+    </h1>
+
+    <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+      <PlotFigure
+        title="Relation entre longueur et profondeur du bec des manchots"
+        subtitle="Analyse par espèce de manchots de l'Antarctique"
+        caption="Figure 1. Nuage de points montrant la corrélation entre la longueur et la profondeur du bec selon l'espèce de manchot."
+        ariaLabel="Graphique en nuage de points montrant la relation entre longueur du bec en millimètres (axe X) et profondeur du bec en millimètres (axe Y) pour trois espèces de manchots : Adelie, Chinstrap et Gentoo"
+        options={{
+          marks: [
+            Plot.dot(penguins, {
+              x: "culmen_length_mm",
+              y: "culmen_depth_mm",
+              stroke: "species",
+              fill: "species",
+              fillOpacity: 0.7,
+            }),
+          ],
+          color: {
+            legend: true,
+          },
+          grid: true,
+        }}
+      />
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-lg">
+        <h2 class="text-xl font-bold mb-3">Carte Leaflet</h2>
+        <p class="text-gray-700 mb-4">
+          Découvrez les établissements d'enseignement supérieur avec une carte
+          interactive Leaflet.
+        </p>
+        <a
+          href="/leaflet"
+          class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors"
+        >
+          Explorer la carte Leaflet
+        </a>
+      </div>
+
+      <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-lg">
+        <h2 class="text-xl font-bold mb-3">Carte GeoJSON</h2>
+        <p class="text-gray-700 mb-4">
+          Analysez la population des départements français avec des
+          visualisations interactives.
+        </p>
+        <a
+          href="/geojson"
+          class="inline-block bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition-colors"
+        >
+          Analyser les données GeoJSON
+        </a>
+      </div>
+    </div>
+  </div>
 </Layout>

@@ -1,0 +1,98 @@
+---
+import Layout from "../layouts/Layout.astro";
+// Import des styles CSS de Leaflet pour l'affichage de la carte
+import "leaflet/dist/leaflet.css";
+---
+
+<Layout>
+  <div class="container mx-auto px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">
+      Carte des Établissements avec Leaflet
+    </h1>
+    <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+      <div
+        id="map"
+        class="h-96 md:h-[600px] w-full"
+        role="application"
+        aria-label="Carte interactive des établissements d'enseignement"
+      >
+      </div>
+    </div>
+
+    <div class="mt-6 bg-blue-50 p-4 rounded-lg">
+      <h2 class="text-lg font-semibold mb-2">Établissements affichés :</h2>
+      <ul
+        id="etablissements-list"
+        class="list-disc list-inside space-y-1 text-sm"
+      >
+        <!-- La liste sera remplie par JavaScript -->
+      </ul>
+    </div>
+
+    <div class="mt-8">
+      <a
+        href="/"
+        class="inline-block bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded mr-4 transition-colors"
+      >
+        Retour à l'accueil
+      </a>
+      <a
+        href="/geojson"
+        class="inline-block bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition-colors"
+      >
+        Voir la carte GeoJSON
+      </a>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  import listeEtablissements from "../assets/listeEtablissements.json";
+  // Import de la bibliothèque Leaflet pour créer la carte interactive
+  import L from "leaflet";
+
+  // Dans l'élément d'ID "map" : création de la carte centrée sur la France (lat: 46.6033, lon: 1.883) avec un zoom niveau 6
+  const map = L.map("map").setView([46.6033, 1.883], 6);
+
+  // Ajout de la couche de tuiles OpenStreetMap
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "© OpenStreetMap contributors",
+  }).addTo(map);
+
+  // Correction pour les icônes par défaut de Leaflet
+  delete (L.Icon.Default.prototype as any)._getIconUrl;
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png",
+    iconUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png",
+    shadowUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
+  });
+
+  // Groupe de marqueurs pour gérer l'affichage
+  const markers = L.layerGroup().addTo(map);
+
+  // Ajout des marqueurs pour chaque établissement
+  listeEtablissements.forEach((etablissement) => {
+    const marker = L.marker([etablissement.latitude, etablissement.longitude])
+      .bindPopup(`<b>${etablissement.nom}</b><br>${etablissement.type}`)
+      .bindTooltip(etablissement.nom);
+
+    markers.addLayer(marker);
+  });
+
+  // Ajuster la vue pour montrer tous les marqueurs
+  const group = new L.featureGroup(Object.values(markers._layers));
+  map.fitBounds(group.getBounds().pad(0.1));
+
+  // Remplir la liste des établissements
+  const etablissementsList = document.getElementById("etablissements-list");
+  if (etablissementsList) {
+    listeEtablissements.forEach((etablissement) => {
+      const li = document.createElement("li");
+      li.innerHTML = `<strong>${etablissement.nom}</strong> - ${etablissement.type}`;
+      etablissementsList.appendChild(li);
+    });
+  }
+</script>

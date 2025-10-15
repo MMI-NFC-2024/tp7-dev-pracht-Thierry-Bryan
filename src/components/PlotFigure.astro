@@ -1,9 +1,36 @@
 ---
 import * as Plot from "@observablehq/plot";
 import { JSDOM } from "jsdom";
-const { options } = Astro.props;
 
-const plot = Plot.plot({ ...options, document: new JSDOM("").window.document });
+export interface Props {
+  options: any;
+  title?: string;
+  subtitle?: string;
+  caption?: string;
+  ariaLabel?: string;
+}
+
+const { options, title, subtitle, caption, ariaLabel } = Astro.props;
+
+const plotOptions = {
+  ...options,
+  title: title,
+  subtitle: subtitle,
+  caption: caption,
+  ariaLabel: ariaLabel || "Graphique interactif",
+  document: new JSDOM("").window.document,
+};
+
+const plot = Plot.plot(plotOptions);
 ---
 
-<div set:html={plot.outerHTML} />
+<figure class="my-8">
+  {title && <h2 class="text-xl font-bold mb-2">{title}</h2>}
+  {subtitle && <p class="text-gray-600 italic mt-2 mb-4">{subtitle}</p>}
+  <div set:html={plot.outerHTML} />
+  {
+    caption && (
+      <figcaption class="mt-4 text-sm text-gray-700">{caption}</figcaption>
+    )
+  }
+</figure>
